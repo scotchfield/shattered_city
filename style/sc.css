@@ -1,0 +1,126 @@
+/* Custom Shattered City CSS */
+
+.invis {
+    display: none;
+}
+
+#popup {
+    /* Necessary: */
+    position: absolute;
+    display: none;
+    z-index: 10;
+
+    /* Additional styling: */
+    width: 200px;
+    background-color: #EEEEEE;
+    border: 3px solid #A0A0A0;
+    opacity: .85;
+    filter: alpha(opacity=85);
+    text-align: center;
+    color: #000000;
+}
+
+#popup hr {
+    border: 1px solid #D4D4D4;
+    margin: 0px;
+}
+
+body {
+    background-color: #000000;
+    background: url( '/game/shattered_city/style/bw_skyline.png' ) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: #e0e0e0;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default {
+    background-color: #333333;
+    border-color: #666666;
+    color: #f0f0f0;
+}
+
+.navbar-default .navbar-brand {
+    color: #cccccc;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #a0a0a0;
+}
+
+.navbar-default .navbar-nav ul.dropdown-menu li a {
+    color: #333333;
+}
+
+ul.nav.navbar-nav a:hover {
+    color: #ffffff;
+}
+
+.text-muted {
+    color: #c0c0c0;
+}
+
+.list_key {
+    opacity: 0.5;
+}
+
+.no_pad {
+    padding: 0;
+}
+
+.objective_complete {
+    color: #00ff00;
+}
+
+.objective_incomplete {
+    color: #ff0000;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+//    background-color: #f5f5f5;
+    background-color: #333333;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+#footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
